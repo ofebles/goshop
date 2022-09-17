@@ -2,8 +2,8 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/zeimedee/go-postgres/database"
-	"github.com/zeimedee/go-postgres/models"
+	"github.com/ofebles/goshop/database"
+	"github.com/ofebles/goshop/models"
 )
 
 func Hello(c *fiber.Ctx) error {
